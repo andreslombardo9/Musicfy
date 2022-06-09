@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Roboto:wght@400;700&display=swap');
+
+#SLIDE-BG {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: SLIDE-BG 30s infinite linear repeat 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url("../images/2018\ Album\ a\ Day\ _\ Bonus\ Album\ _\ Oasis\ -\ \(What\'s\ the\ Story\)\ Morning\ Glory_\ _\ Released\ October\ 2\,\ 1995\ _\ @RockSolidShow\ #RockSolidAlbumADay2018.jpg");
+}
+
+@keyframes SLIDE-BG {
+    0% {
+        background-image: url("../images/2018\ Album\ a\ Day\ _\ Bonus\ Album\ _\ Oasis\ -\ \(What\'s\ the\ Story\)\ Morning\ Glory_\ _\ Released\ October\ 2\,\ 1995\ _\ @RockSolidShow\ #RockSolidAlbumADay2018.jpg");
+    }
+
+    10% {
+        background-image: url("../images/honestidadbrutal1999.jpg");
+    }
+
+    20% {
+        background-image: url("../images/Kendrick\ Lamar\ on\ Twitter\ \(1\).jpg");
+    }
+
+    30% {
+        background-image: url("../images/siempre\ es\ hoy.jpg");
+    }
+
+    40% {
+        background-image: url("../images/a1482137570_10.jpg");
+    }
+
+    50% {
+        background-image: url("../images/2018\ Album\ a\ Day\ _\ Bonus\ Album\ _\ Oasis\ -\ \(What\'s\ the\ Story\)\ Morning\ Glory_\ _\ Released\ October\ 2\,\ 1995\ _\ @RockSolidShow\ #RockSolidAlbumADay2018.jpg");
+    }
+
+    60% {
+        background-image: url("../images/The\ Infamous\ by\ Mobb\ Deep.jpg");
+    }
+
+    70% {
+        background-image: url("../images/descargar.jpg");
+    }
+
+    80% {
+        background-image: url("../images/kendrick\ good\ kid.jpg");
+    }
+
+    90% {
+        background-image: url("../images/Dutsiland\,\ by\ Mi\ amigo\ invencible.png");
+    }
+
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(400deg, #eb9972, #2d2c49);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 5rem;
+    border-radius: 1rem;
+    border: 3px solid #2d2c49;
+}
+
+.cartel {
+    font-family: 'Bayon', sans-serif;
+    padding: 1rem;
+    display: flex;
+    font-size: 1.5rem;
+    color: #2d2c49;
+}
+
+.container {
+    margin: 10rem 0;
+}
+
+.lorem {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img {
+    box-shadow: 3px 3px 7px #b7464e;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 0;
+    margin: 4rem 0;
+}
+
+.li {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+a {
+    border: 4px solid #2d2c49;
+    border-radius: 1rem;
+    padding: .5rem;
+    text-decoration: none;
+    box-shadow: 3px 3px 7px #b7464e;
+    font-size: 1.5rem;
+    color: #2d2c49;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #2d2c49;
+    color: #b7464e;
+    box-shadow: 5px 5px 10px #b7464e;
+    padding: 1rem;
+}
+.container-decontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 60px 3rem;
+    border-radius: 1rem;
+    border: 3px solid #2d2c49;
+    box-shadow: 3px 3px 7px #b7464e;
+    width: 300px;
+    height: 550px;
+}
+.img-musicfy-reproductor {
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.logo-musicfy-reproductor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -80px 0 120px 0;
+}
+
+
+.title-reproductor {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0 0px 0;
+    color: #2d2c49;
+}
+
+.autor-reproductor {
+    font-size: 13px;
+    color: #eb9972;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 20px 0 20px;
+}
+
+.logo-skips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 0 0;
+
+}
+
+.disco {
+    margin: 0 5px 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-disco {
+    width: 150px;
+    height: 150px;
+    border-radius: 2rem;
+    border: 3px solid #2d2c49;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0 0 0;
+} 
+
+@media(min-width: 769px) {
+
+    .container {
+        margin: 0rem 0;
+    }
+
+    .logo {
+        background-image: linear-gradient(400deg, #eb9972, #2d2c49);
+        display: flex;
+        justify-content: left;
+        border-bottom: 1px solid black;
+    }
+
+    .img {
+        border-radius: .5rem;
+        width: 5rem;
+        height: 5rem;
+        margin: 1rem;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px 0;
+    }
+
+    .lorem {
+        padding: .5rem;
+        font-family: 'Bayon', sans-serif;
+        font-size: 1.5rem;
+        margin: 3rem 3rem;
+        color: #2d2c49;
+        text-shadow: 3px 3px 7px #b7464e;
+        box-shadow: 3px 3px 7px #2d2c49;
+        display: flex;
+        justify-content: center;
+        border-radius: 7px;
+    }
+
+    .slide.containter {
+        margin: 10rem 15rem;
+    }
+
+    .selector {
+        border-radius: 1rem;
+        border: 1px solid #2d2c49;
+        margin: 10rem 19rem;
+    }
+
+
+    .cartel {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .card {
+        width: 300px;
+        height: 550px;
+    }
+    .img-musicfy-reproductor {
+        width: 90px;
+        height: 90px;
+    }
+    .logo-musicfy-reproductor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -40px 0 120px 0;
+    }
+}
